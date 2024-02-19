@@ -1,0 +1,32 @@
+## **vim tricks**
+
+**when creating a file use a back-up example below, use .b** 
+
+```jsx
+k run pod —image=nginx —dry-run=client  -o yaml > pod_name.yaml.b
+```
+
+**tricks to find and replace the word** 
+
+1. when seraching some stuff use “ / “ to enter find mode 
+2. then shft + c to replace the word. 
+
+tricks to indent a line the “ >  “ or “ < “ is an arrow key 
+
+- shift + >  OR shift + <
+
+tricks to add a line below and above 
+
+- o → add line below
+- O → add line above
+
+tricks to indent a line of code 
+
+- shift v  → to enter block mode
+- highlight the line of code using arrows
+- . to repeat
+
+copy paste of block of text 
+
+- shift v
+- highlight  then  y = to copy , p = paste
